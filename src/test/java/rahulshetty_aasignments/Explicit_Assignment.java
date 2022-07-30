@@ -38,6 +38,7 @@ public class Explicit_Assignment {
 		driver.close();
 		
 		System.out.println("Code success");
+		System.out.println("Browser closed successfully");
 		
 
 	}
