@@ -39,6 +39,7 @@ public class Explicit_Assignment {
 		
 		System.out.println("Code success");
 		System.out.println("Browser closed successfully");
+		System.out.println("Four items got found");
 		
 
 	}
