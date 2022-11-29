@@ -50,6 +50,7 @@ public class UploadFiles {
 		driver.findElement(By.id("processTaskTextBtn")).click();
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(By.id("pickfiles")));
 		driver.findElement(By.id("pickfiles")).click();
+		
 
 		File file = new File(downloadpath + "/Hi Tester.pdf");
 		if (file.exists()) {
