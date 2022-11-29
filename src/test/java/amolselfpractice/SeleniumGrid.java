@@ -16,7 +16,7 @@ public class SeleniumGrid {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setBrowserName("chrome");
 		
-		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.35:4444"), caps);
+		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.37:4444"), caps);
 		driver.get("https://google.com");
 		System.out.println(driver.getTitle());
 		
@@ -28,7 +28,7 @@ public class SeleniumGrid {
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setBrowserName("edge");
 		
-		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.35:4444"), caps);
+		WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.37:4444"), caps);
 		driver.get("https://www.selenium.dev/downloads/");
 		System.out.println(driver.getTitle());
 	}

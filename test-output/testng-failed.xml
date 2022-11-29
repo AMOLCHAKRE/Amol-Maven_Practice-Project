@@ -6,7 +6,6 @@
       <class name="amolselfpractice.SeleniumGrid">
         <methods>
           <include name="SeleniumDevhomepage"/>
-          <include name="Googlehomepage"/>
         </methods>
       </class> <!-- amolselfpractice.SeleniumGrid -->
     </classes>
